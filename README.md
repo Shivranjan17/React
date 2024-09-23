@@ -15,7 +15,7 @@ JSX is a syntax extension that allows writing HTML-like code in JavaScript, maki
 
 ```jsx
 const element = <h1>Hello, world!</h1>;
-
+```
 3. Virtual DOM
 React uses a virtual DOM, an in-memory representation of the real DOM. It updates the real DOM efficiently by only modifying changed elements.
 
