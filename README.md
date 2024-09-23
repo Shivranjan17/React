@@ -1,18 +1,21 @@
-React Overview
-React is a JavaScript library used for building user interfaces, primarily for single-page applications (SPAs). Developed and maintained by Facebook, React allows developers to create large web applications that can update and render efficiently with minimal data changes.
+# React Overview
 
-Key Features of React:
-1. Component-Based Architecture
-React applications are built using reusable components. Components are independent, self-contained blocks of code that represent a part of the UI. They can be nested, managed, and reused.
+React is a JavaScript library used for building user interfaces, primarily for single-page applications (SPAs). Developed and maintained by Facebook, React allows developers to create large web applications that update and render efficiently with minimal data changes.
 
-Functional Components: Functions that return JSX.
-Class Components: ES6 classes extending React.Component with lifecycle methods.
-2. JSX (JavaScript XML)
+## Key Features of React
+
+### 1. Component-Based Architecture
+React applications are built using reusable components. Components are independent, self-contained blocks of code that represent a part of the UI.
+
+- **Functional Components**: Functions that return JSX.
+- **Class Components**: ES6 classes extending `React.Component` with lifecycle methods.
+
+### 2. JSX (JavaScript XML)
 JSX is a syntax extension that allows writing HTML-like code in JavaScript, making it easier to visualize UI components.
 
-jsx
-Copy code
+```jsx
 const element = <h1>Hello, world!</h1>;
+
 3. Virtual DOM
 React uses a virtual DOM, an in-memory representation of the real DOM. It updates the real DOM efficiently by only modifying changed elements.
 
