@@ -11,6 +11,12 @@ function App() {
     //console.log("value added",counter)
     counter = counter+1
     setCounter(counter)
+    // setCounter(PrevCounter => PrevCounter +1)
+    // setCounter(PrevCounter => PrevCounter +1)
+    // setCounter(PrevCounter => PrevCounter +1)
+    // setCounter(PrevCounter => PrevCounter +1)
+
+    
 
     //or 
     //setCounter(counter +1 )
